@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #bc073b;
+    --secondary-color: #b4102b;
+    --heading-color: #0b2727;
+    --text-color: #6e7074;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name:  "Island Moments", cursive;
+}
+
+.main-card{
+    margin-top: 0;
+    height: auto;
+    width: auto;
+}
+
+.main-card .cards{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main-card .cards .main__head {
+    height: 430px;
+    width: 300px;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 1px 2px 2px 2px #c31a5d;
+}
+
+.main-card .cards .main__head:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.main-card .cards .main__head img{
+    height: 200px;
+    width: 300px;
+    border-radius: 0px 20px 0px 20px;
+    padding: .8%;
+}
+
+.main-card .cards .main__head img:hover{
+    transform: scale(.9);
+    transition: 1s;
+}
+
+.main-card .cards .main__head .title{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--heading-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-card .cards .main__head .desc{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--text-color);
+}

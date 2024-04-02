@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #bc073b;
+    --secondary-color: #b4102b;
+    --heading-color: #0b2727;
+    --text-color: #6e7074;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name:  "Island Moments", cursive;
+  }
+
+
+.footer{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background: #b2bed7;
+}
+
+.footer .logo img{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.footer .logo p{
+    color: var(--primary-color);
+    font-weight: 500;
+    padding-top: .8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social__links span a{
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 1.5rem;
+}
+
+.footer__quick-links{
+    background:transparent !important;
+}
+
+.footer__quick-links li{
+    background:transparent !important;
+}
+
+.footer__link-title {
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+}
+
+.footer__quick-links li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1rem;
+    background: none;
+}
+
+.copyright{
+    font-size: 1.1rem;
+    color: #1c1919;
+    margin-top: 3rem;
+}

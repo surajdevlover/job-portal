@@ -1,0 +1,252 @@
+:root {
+    --primary-color: #bc073b;
+    --secondary-color: #b4102b;
+    --heading-color: #0b2727;
+    --text-color: #6e7074;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name:  "Island Moments", cursive;
+  }
+
+/* hero-section-right */
+.hero__content-right{
+    margin-top: 15%;
+}
+
+.hero__content-right h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.hero__content-right p{
+   font-size: 1.7rem;
+   color: var(--text-color);
+   line-height: 2rem;    
+}
+
+.hero__img-box-right img{
+    width: 753px;
+    height: 550px;
+    border-top-left-radius: 46%;
+    border-bottom-left-radius: 46%;
+    border: 3.5px solid var(--secondary-color);
+    /* object-fit: cover; */
+}
+/* hero-section-right */
+
+/* hero-section-left */
+.hero__content-left{
+    margin-top: 5%;
+    margin-left: 46%;
+}
+
+.hero__content-left h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.hero__content-left h1 .highlight{
+    color: var(--secondary-color);
+}
+
+.hero__content-left p{
+   font-size: 1.3rem;
+   color: var(--text-color);
+   line-height: 1.7rem;
+   width:  100%;
+}
+
+.hero__content-left p .highlight{
+    color: var(--secondary-color);
+    font-weight: 600 !important;
+}
+
+.hero__img-box-left img{
+    width: 755px;
+    height: 550px;
+    margin-left: -60%;
+    border-top-right-radius: 46%;
+    border-bottom-right-radius: 46%;
+    border: 3.5px solid var(--secondary-color);
+    /* object-fit: cover; */
+}
+/* hero-section-left */
+
+/* services start */
+.services__subtitle{
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    line-height: 2rem;
+    letter-spacing: 8px;
+    text-align: center; 
+}
+
+.services__title{
+    position: relative;
+    font-size: 2.6rem;
+    font-weight: 500;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+.services__p{
+    position: relative;
+    width: 60%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-left: 20%;
+    top: 5%;
+    line-height: 2rem;
+    text-align: center;
+}
+/* services end */
+
+/* PASONA INDIA IN NUMBERS start */
+.featured__title{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.counter__wrapper{
+    margin-top: 5%;
+    margin-left: 23%;
+}
+
+.counter__box span{
+    width: 190px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.counter__box h6{
+    font-size: 1.1rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.counter__box1 span{
+    width: 190px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.counter__box1 h6{
+    font-size: 1.1rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+/* PASONA INDIA IN NUMBERS end */
+
+/* new services start */
+.new-services__subtitle{
+    margin-top: -5%;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    letter-spacing: 8px;
+    text-align: center; 
+}
+
+.new__services-left{
+    margin-top: 3.5%;
+    margin-left: 46%;
+}
+
+.new__services-left h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+/* .new__services-left h1 .highlight{
+    color: var(--secondary-color);
+} */
+
+.new__services-left p{
+   font-size: 1.1rem;
+   color: var(--text-color);
+   line-height: 1.7rem;
+   width:  100%;
+}
+
+.new__services-left p .highlight{
+    color: var(--secondary-color);
+    font-weight: 600 !important;
+}
+
+.new__services-vid-left video{
+    width: 730px;
+    height: 412px;
+    margin-left: -60%;
+    margin-top: 20%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: 1px solid var(--secondary-color);
+    /* object-fit: cover; */
+}
+
+
+.new__services-right{
+    margin-top: 1.5%;
+    margin-left: -23%;
+}
+
+.new__services-right h1{
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.new__services-right h1 .highlight{
+    color: var(--secondary-color);
+}
+
+.new__services-right p{
+   font-size: 1.3rem;
+   color: var(--text-color);
+   line-height: 1.7rem;
+   width: 45%;
+}
+
+.new__services-right p .highlight{
+    color: var(--secondary-color);
+    font-weight: 600 !important;
+}
+
+.new__services-vid-right video{
+    width: 755px;
+    height: 426px;
+    margin-left: 335%;
+    border: 2px solid var(--secondary-color);
+    /* object-fit: cover; */
+}
+/* new services end */
