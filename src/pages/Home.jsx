@@ -4,9 +4,10 @@ import {Link} from 'react-router-dom'
 import '../style/home.css'
 
 import { Container, Row, Col, Button} from 'reactstrap';
-import heroImg from '../assets/images/hero-img01.jpg'
+import heroImg from '../assets/images/hr-services.png'
+import heroImg1 from '../assets/images/welcome.png'
 import Subtitle from './../Shared/Subtitle';
-import newSerVideo from '../assets/images/hero-video.mp4'
+// import newSerVideo from '../assets/images/hero-video.mp4'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -51,7 +52,6 @@ const Home = () => {
   return <>
 
     {/* hero-section-right start */}
-    {/* <Slider {...settings}> */}
       <section>
         <Container>
           <Row>
@@ -78,8 +78,6 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-    {/* </Slider> */}
-    
     {/* hero-section-right end */}
 
     {/* hero-section-left start */}
@@ -88,7 +86,7 @@ const Home = () => {
         <Row>
           <Col lg='2'>
             <div className="hero__img-box-left">
-              <img src={heroImg} alt="" />
+              <img src={heroImg1} alt="" />
             </div>
           </Col>
 
@@ -96,19 +94,18 @@ const Home = () => {
             <div className="hero__content-left">
               <h1 data-aos="fade-left"> 
                 Welcome to <br/>
-                <span className='highlight' data-aos="fade-up">Pasona Group</span>
+                <span className='highlight' data-aos="fade-up">MANASWI MANAGEMENT SERVICES</span>
               </h1>
-              <p data-aos="fade-right"> <span className='highlight'> Pasona</span> Group is the parent company of Pasona India Pvt Ltd.
-                As Japan’s leading human resources management company, Pasona Group has its presence across the globe. <br/>
-                Pasona India, India's first Japanese HR solutions agency, was established in 2006. 
-                With a team of experienced advisors, knowledgeable and updated about the latest policies in the HR industry, 
-                Pasona India has risen to become one of the most sought after HR solutions organization in the country today.
+              <p data-aos="fade-right"> <span className='highlight'> Manaswi Management Services Pvt. Ltd.</span> is a Man Power Consulting & Outsourcing company 
+              based in heart of India (Delhi ) Equipped, also with a Network in Mumbai, Pune.  On Track to become a Premier Manpower Consulting & 
+              outsourcing Solutions , in India & abroad.<br/>
+              A result driven, management practitioner, they were on Board of their last companies. 
+              Their passion areas are Manpower Solutions, HR, OD Interventions and Leadership development through creative methods.
               </p>
 
               <div className="nav__right d-flex align-items-center gap-4">
                 <div className="nav__btns d-flex align-items-center gap-4">
-                  {/* <Button className='btn secondary__btn'><Link to='/login'>Login</Link></Button> */}
-                  <Button className='btn primary__btn'><Link to='/register'>Know More</Link></Button>
+                  <Button className='btn primary__btn'><Link to='/about'>Know More</Link></Button>
                 </div>
               </div>
             </div>
@@ -146,24 +143,24 @@ const Home = () => {
     </section>
     {/* card end */}
 
-    {/* PASONA INDIA IN NUMBERS start */}
+    {/* MANASWI MANAGEMENT SERVICES INDIA IN NUMBERS start */}
     <section>
       <Container>
         <Row>
           <Col lg='12' className='mb-5 featured'>
-            <h4 className='featured__title' data-aos="fade-down">PASONA INDIA IN NUMBERS</h4>
+            <h4 className='featured__title' data-aos="fade-down">MANASWI MANAGEMENT SERVICES INDIA IN NUMBERS</h4>
 
             <div className="counter__wrapper d-flex align-items-center gap-5" data-aos="fade-right">
               <div className="counter__box1">
-                <span>700+</span>
+                <span>10+</span>
                 <h6>Clients in India & Overseas</h6>
               </div>
               <div className="counter__box">
-                <span>10,000+</span>
+                <span>1,000+</span>
                 <h6>People Placed</h6>
               </div>
               <div className="counter__box">
-                <span>7+</span>
+                <span>4</span>
                 <h6>Branches</h6>
               </div>
             </div>
@@ -171,10 +168,10 @@ const Home = () => {
         </Row>
       </Container>
     </section>
-    {/* PASONA INDIA IN NUMBERS end */}
+    {/* MANASWI MANAGEMENT SERVICES INDIA IN NUMBERS end */}
 
     {/* new services start */}
-    <section>
+    {/* <section>
       <Container>
         <Row>
           <Col>
@@ -187,10 +184,9 @@ const Home = () => {
         <Row>
           <Col lg='2'>
             <div className="new__services-vid-left" data-aos="fade-up">
-              <video muted autoPlay loop>
+              <video muted autoPlay loop controls>
                 <source src={newSerVideo}/>
               </video>
-              {/* <video src={newSerVideo} loop="true" autoplay="autoplay"/> */}
             </div>
           </Col>
 
@@ -198,7 +194,6 @@ const Home = () => {
             <div className="new__services-left">
               <h1 data-aos="fade-left"> 
                 PRIDE - Performance Management Solution <br/>
-                {/* <span className='highlight' data-aos="fade-up">Pasona Group</span> */}
               </h1>
               <p data-aos="fade-right"> <span className='highlight'> PRIDE PMS </span> 
                  is a multi-faceted performance management system that enables organizations to measure, 
@@ -209,7 +204,6 @@ const Home = () => {
 
               <div className="nav__right d-flex align-items-center gap-4" data-aos="fade-left">
                 <div className="nav__btns d-flex align-items-center gap-4">
-                  {/* <Button className='btn secondary__btn'><Link to='/login'>Login</Link></Button> */}
                   <Button className='btn primary__btn'><Link to='/register'>Know More</Link></Button>
                 </div>
               </div>
@@ -225,7 +219,7 @@ const Home = () => {
         <Row>
           <Col lg='2'>
             <div className="new__services-vid-right" data-aos="fade-up">
-              <video muted autoPlay loop>
+              <video muted autoPlay loop controls>
                 <source src={newSerVideo}/>
               </video>
             </div>
@@ -234,18 +228,17 @@ const Home = () => {
           <Col>
             <div className="new__services-right">
               <h1 data-aos="fade-left">                 
-              <span className='highlight' data-aos="fade-up">Pasona </span> <br/>  
+              <span className='highlight' data-aos="fade-up">MANASWI MANAGEMENT SERVICES </span> <br/>  
                  Language Academy
               </h1>
-              <p data-aos="fade-right"> <span className='highlight'> Pasona </span> 
-              India is happy to announce the launch of “Japanese Language Academy” which will provide Basic Japanese Language 
+              <p data-aos="fade-right"> <span className='highlight'> MANASWI MANAGEMENT SERVICES </span> 
+              is happy to announce the launch of “Japanese Language Academy” which will provide Basic Japanese Language 
               learning to all aspiring people! The course is designed to build business Japanese language knowledge and fluency. 
               It is a thoughtfully crafted course to meet the needs of both Organizations and Individuals!
               </p>
 
               <div className="nav__right d-flex align-items-center gap-4" data-aos="fade-left">
                 <div className="nav__btns d-flex align-items-center gap-4">
-                  {/* <Button className='btn secondary__btn'><Link to='/login'>Login</Link></Button> */}
                   <Button className='btn primary__btn'><Link to='/register'>Know More</Link></Button>
                 </div>
               </div>
@@ -254,7 +247,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </section> */}
     {/* new services end */}
   </>
 }

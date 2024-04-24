@@ -3,7 +3,7 @@ import './footer.css';
 
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.png';
 
 
 import Aos from 'aos'
@@ -11,75 +11,59 @@ import 'aos/dist/aos.css'
 
 const quick__links=[
   {
-    path:'/home',
+    path:'/hr-solution',
     display:'HR Consulting'
   },
   {
-    path:'/about',
+    path:'/hr-solution',
     display:'HR Outsourcing'
   },
   {
-    path:'/contact',
+    path:'/hr-solution',
     display:'Outplacement'
   },
   {
-    path:'/home',
+    path:'/training',
     display:'Training & Organization Development'
-  },
-  {
-    path:'/about',
-    display:'Talent Acquisition'
-  },
-  {
-    path:'/contact',
-    display:'Staffing Solutions'
   },
 ]
 
 const quick__links2=[
   {
-    path:'/home',
+    path:'/about',
     display:'About us'
   },
   {
-    path:'/about',
+    path:'/contact',
     display:'Contact us'
   },
   {
-    path:'/contact',
-    display:'Blog'
-  },
-  {
-    path:'/home',
-    display:'Pasona In News'
-  },
-  {
-    path:'/about',
+    path:'/terms-of-use',
     display:'Terms of Use'
   },
   {
-    path:'/contact',
+    path:'/privacy-policy',
     display:'Privacy Policy'
   },
 ]
 
 const quick__links3=[
   {
-    path:'/home',
+    path:'/career',
     display:'Job Search'
   },
   {
-    path:'/about',
+    path:'/home',
     display:'Job Seeker’s Guide'
   },
 ]
 
-const quick__links4=[
-  {
-    path:'/home',
-    display:'Japanese Website'
-  },
-]
+// const quick__links4=[
+//   {
+//     path:'/home',
+//     display:'Japanese Website'
+//   },
+// ]
 
 const Footer = () => {
 
@@ -124,7 +108,7 @@ const Footer = () => {
         </Col>
         
         <Col lg='3' data-aos="fade-down">
-          <h5 className='footer__link-title'>HR Solutions</h5>
+          <h6 className='footer__link-title'>HR Solutions</h6>
           
           <ListGroup className='footer__quick-links'>
             {
@@ -137,7 +121,7 @@ const Footer = () => {
           </ListGroup>
         </Col>
         <Col lg='3' data-aos="fade-down">
-          <h5 className='footer__link-title'>Corporate</h5>
+          <h6 className='footer__link-title'>Corporate</h6>
           
           <ListGroup className='footer__quick-links'>
             {
@@ -150,7 +134,7 @@ const Footer = () => {
           </ListGroup>
         </Col>
         <Col lg='3' data-aos="fade-down">
-          <h5 className='footer__link-title'>For Job Seekers</h5>
+          <h6 className='footer__link-title'>For Job Seekers</h6>
           
           <ListGroup className='footer__quick-links'>
             {
@@ -162,7 +146,7 @@ const Footer = () => {
             }
           </ListGroup>
 
-          <h5 className='footer__link-title'>Organizations</h5>
+          {/* <h6 className='footer__link-title'>Organizations</h6>
           
           <ListGroup className='footer__quick-links'>
             {
@@ -172,7 +156,7 @@ const Footer = () => {
                 </ListGroupItem>
               ))
             }
-          </ListGroup>
+          </ListGroup> */}
         </Col>        
       </Row>
     </Container>
@@ -180,14 +164,14 @@ const Footer = () => {
     <Container>
       <Row>
         <Col className='copy text-center'>
-          <p className='copyright' data-aos="fade-left">
-          Disclaimer: PASONA INDIA is only in the business of providing HR solution services in four (4) domains i.e., 
+          <p className='copyright'>
+          Disclaimer: MANASWI MANAGEMENT SERVICES is only in the business of providing HR solution services in four (4) domains i.e., 
           Talent Acquisition solution services (placement), staffing, HR consulting and Training services. 
-          Please note PASONA INDIA never asks for any payment or any other information via WhatsApp or any other social platform. 
+          Please note MANASWI MANAGEMENT SERVICES never asks for any payment or any other information via WhatsApp or any other social platform. 
           We never ask for any payment from any candidate for placement service. 
-          Please contact service.assurance@pasona.in for verification of any service, payment request, doubtful claims, 
+          Please contact www.msil.org.in/hr for verification of any service, payment request, doubtful claims, 
           business request, dubious, misleading, or malicious emails... <br />
-          Copyright {year}, PASONA India Private Limited</p>
+          Copyright {year}, MANASWI MANAGEMENT SERVICES Pvt. Ltd.</p>
         </Col>
       </Row>
     </Container>

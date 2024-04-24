@@ -9,8 +9,8 @@
 
 
 .footer{
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
     background: #b2bed7;
 }
 
@@ -22,7 +22,7 @@
 .footer .logo p{
     color: var(--primary-color);
     font-weight: 500;
-    padding-top: .8rem;
+    padding-top: .4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -42,18 +42,30 @@
 
 .footer__link-title {
     color: var(--heading-color);
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 .footer__quick-links li a{
     text-decoration: none;
-    color: var(--text-color);
-    font-size: 1rem;
+    color: #0b2727;
+    font-size: .9rem;
     background: none;
 }
 
+
+.footer .copy{
+    background-color: #c42630;
+    /* margin-left: -8%; */
+    margin-top: 2rem;
+    width: 120%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
 .copyright{
-    font-size: 1.1rem;
-    color: #1c1919;
-    margin-top: 3rem;
+    font-size: .9rem;
+    color: #e1d7d7;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 450;
 }
