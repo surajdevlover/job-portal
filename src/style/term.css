@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #bc073b;
+    --secondary-color: #b4102b;
+    --heading-color: #0b2727;
+    --text-color: #6e7074;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name:  "Island Moments", cursive;
+  }
+
+/* about-section-left */
+.term__content-left{
+    margin-top: 8%;
+    margin-left: 46%;
+}
+
+.term__content-left h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 12rem;
+    font-family: "HK Grotesk Bold";
+    color: var(--heading-color);
+}
+
+/* .term__content-left p{
+   font-size: 1.3rem;
+   color: var(--text-color);
+   line-height: 2rem;
+   width:  100%;
+   font-family: "HK Grotesk Bold";
+   letter-spacing: 2px;
+}
+
+.term__content-left p .highlight{
+    color: var(--secondary-color);
+    font-family: "HK Grotesk Bold";
+    font-weight: 600 !important;
+} */
+
+.term__img-box-left img{
+    width: 700px;
+    height: 330px;
+    margin-left: -60%;
+    margin-top: 30%;
+    border-top-right-radius: 38%;
+    border-bottom-right-radius: 38%;
+    /* border: 3.5px solid var(--secondary-color); */
+    /* object-fit: cover; */
+}

@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #bc073b;
+    --secondary-color: #b4102b;
+    --heading-color: #0b2727;
+    --text-color: #6e7074;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name:  "Island Moments", cursive;
+  }
+
+
+.login__container-header{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+
+.login__container-header h4{
+    font-size: 20px;
+    width: 400;
+    color: var(--text-color);
+}
+
+.login__container-header h4 span{
+    font-size: 30px;
+    width: 400;
+    color: var(--text-color);
+    padding-top: 10px;
+}
+
+.login__img{
+    width: 100%;
+    text-align: center;
+}
+
+.login__img img{
+    margin-top: 40px;
+    width: 80%;
+    object-fit:contain;
+}
+
+.login__form{
+    padding: 50px;
+    background: #ab4646;
+    position: relative;   
+}
+
+.login__container{
+    box-shadow: rgba(73, 18, 50, 0.15) 60px 60px 100px 60px;
+    margin: 100px;
+}
+
+.login__form .user{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -9%;
+    left: 50px;
+    transform: translate(60%, -9%);
+}
+
+.login__form .user img{
+    width: 100%;
+}
+
+.login__form h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login__form{
+    width: 60%;
+}
+
+.login__form input{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: var(--heading-color);
+}
+
+.login__form input:focus{
+    outline: none;
+}
+
+.auto_btn{
+    background-color: var(--heading-color) !important;
+    width: 100%;
+    color: #fff !important;
+}
+
+.login__form p{
+    font-size: 0.9rem;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.login__form p a{
+    font-size: .9rem;
+    color: #192639;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+}
