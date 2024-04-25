@@ -8,7 +8,7 @@ import userIcon from '../assets/images/user.png'
 
 const Login = () => {
 
-  const [credentials, setCredentials] = useState({
+  const [setCredentials] = useState({
     email:undefined,
     password:undefined,
   });
