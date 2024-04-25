@@ -8,7 +8,7 @@ import '../style/register.css'
 
 const Register = () => {
 
-  const [credentials, setCredentials] = useState({
+  const [setCredentials] = useState({
     userName:undefined,
     email:undefined,
     password:undefined,
