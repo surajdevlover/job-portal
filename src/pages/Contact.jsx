@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'
 
 const Contact = () => {
 
-  const [credentials, setCredentials] = useState({
+  const [setCredentials] = useState({
     userName:undefined,
     email:undefined,
     password:undefined,
